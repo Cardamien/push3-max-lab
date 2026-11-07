@@ -1,0 +1,5 @@
+claim interface 0: ok
+system-info query: sent
+reply (ok, 40 bytes): fe 00 f0 ff 01 06 00 00 5b 00 00 01 03 01 01 00 xx xx xx xx 8a f7 02 00 04 00 05 01 00 00 00 00 00 00 00 00 00 00 00 00   (serial bytes 16-19 redacted)
+black frame: ok
+frames 150 in 5.00 s (30.0 fps), errors 0

@@ -1,0 +1,18 @@
+helper-copy/
+helper-fake/
+live-copy/
+*.bin
+*.dylib
+max/vpush_snapshot.png
+reference/
+# compiled tools (build with swiftc / clang, see README)
+fakeports/fakeports
+bridge/pushbridge
+midihide/midihide
+midihide/props
+midiquery/midiquery
+midisniff/midisniff
+face/__pycache__/
+winrec/winrec
+media/
+helper-tap/

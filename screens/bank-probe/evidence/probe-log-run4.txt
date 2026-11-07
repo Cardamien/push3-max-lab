@@ -1,0 +1,99 @@
+21:55:26.753 banks: 0 existed, 3 written
+21:55:28.432 deleted older instance id 524 at index 1
+21:55:28.434 this_device id 547, name PushBankProbe, class MxDeviceAudioEffect
+21:55:28.436 this_device: id 547 type MaxDevice path live_set tracks 1 devices 1
+21:55:28.437 this_device properties: can_compare_ab(bool), can_have_chains(bool), can_have_drum_pads(bool), class_display_name(str), class_name(str), is_active(bool), latency_in_ms(float), latency_in_samples(int), name(str), type(DeviceType)
+21:55:28.438 this_device children: audio_inputs(DeviceIO), audio_outputs(DeviceIO), midi_inputs(DeviceIO), midi_outputs(DeviceIO), parameters(DeviceParameter), canonical_parent(Track), view(View)
+21:55:28.439 this_device functions: get_bank_count, get_bank_name, get_bank_parameters, save_preset_to_compare_ab_slot, store_chosen_bank
+21:55:28.441 CHANGE 21:55:28.440 this_device.can_compare_ab = 547
+21:55:28.443 CHANGE 21:55:28.442 this_device.can_have_chains = 547
+21:55:28.445 CHANGE 21:55:28.444 this_device.can_have_drum_pads = 547
+21:55:28.448 CHANGE 21:55:28.447 this_device.class_display_name = 547
+21:55:28.451 CHANGE 21:55:28.449 this_device.class_name = 547
+21:55:28.453 CHANGE 21:55:28.452 this_device.is_active = 547
+21:55:28.454 CHANGE 21:55:28.453 this_device.is_active = 1
+21:55:28.456 CHANGE 21:55:28.455 this_device.latency_in_ms = 547
+21:55:28.457 CHANGE 21:55:28.456 this_device.latency_in_ms = 0
+21:55:28.459 CHANGE 21:55:28.458 this_device.latency_in_samples = 547
+21:55:28.461 CHANGE 21:55:28.460 this_device.latency_in_samples = 0
+21:55:28.463 CHANGE 21:55:28.462 this_device.name = 547
+21:55:28.464 CHANGE 21:55:28.463 this_device.name = PushBankProbe
+21:55:28.466 CHANGE 21:55:28.465 this_device.type = 547
+21:55:28.468 this_device.view: id 548 type View path live_set tracks 1 devices 1 view
+21:55:28.469 this_device.view properties: is_collapsed(bool)
+21:55:28.470 this_device.view children: canonical_parent(MaxDevice)
+21:55:28.471 this_device.view functions: 
+21:55:28.473 CHANGE 21:55:28.472 this_device.view.is_collapsed = 548
+21:55:28.475 CHANGE 21:55:28.474 this_device.view.is_collapsed = 0
+21:55:28.477 control_surfaces: 7 entries, ids 0 0 0 0 0 0 -1
+21:55:28.478 control_surfaces 0: empty slot
+21:55:28.479 control_surfaces 1: empty slot
+21:55:28.480 control_surfaces 2: empty slot
+21:55:28.481 control_surfaces 3: empty slot
+21:55:28.482 control_surfaces 4: empty slot
+21:55:28.485 control_surfaces 5: empty slot
+21:55:28.488 cs6: id -1 type Push3 path control_surfaces 0
+21:55:28.489 cs6 properties: control_names(tuple), mxd_midi_scheduler(MessageScheduler), pad_layout(str), timer_instance(NoneType), type_name(str)
+21:55:28.490 cs6 children: controls(ControlElement)
+21:55:28.491 cs6 functions: disconnect, get_control, get_control_by_name, get_control_names, grab_control, grab_control, grab_midi, has_control, release_control, release_control, release_midi, send_midi, send_receive_sysex
+21:55:28.493 cs6 control names (355): control_names 176 control Jogwheel_Tap control Jogwheel_Press control Jogwheel_Left_nudge control Jogwheel_Right_nudge control Jogwheel control Foot_Pedal control Up_Arrow control Down_Arrow control Left_Arrow control Right_Arrow control Nav_Select_Touch control Nav_Select_Button control Shift_Button control Select_Button control Delete_Button control Duplicate_Button control Quantization_Button control New_Button control Undo_Button ...
+21:55:28.495 CHANGE 21:55:28.494 cs6.control_names = 1
+21:55:28.497 CHANGE 21:55:28.496 cs6.mxd_midi_scheduler = 1
+21:55:28.499 CHANGE 21:55:28.498 cs6.pad_layout = 1
+21:55:28.501 CHANGE 21:55:28.500 cs6.timer_instance = 1
+21:55:28.503 CHANGE 21:55:28.502 cs6.type_name = 1
+21:55:28.505 cs6.controls: id -13 type list path undefined
+21:55:28.506 cs6.controls properties: 
+21:55:28.507 cs6.controls children: 
+21:55:28.508 cs6.controls functions: 
+21:55:28.510 CHANGE 21:55:28.509 songview.selected_track = id 499
+21:55:28.512 CHANGE 21:55:28.511 trackview.selected_device = id 547
+21:55:28.514 CHANGE 21:55:28.513 trackview.selected_device = id 547
+21:55:28.517 app.view: id 2147418113 type View path live_app view
+21:55:28.519 app.view properties: browse_mode(bool), focused_document_view(str)
+21:55:28.520 app.view children: canonical_parent(Application)
+21:55:28.521 app.view functions: available_main_views, focus_view, hide_view, is_view_visible, scroll_view, show_view, toggle_browse, zoom_view
+21:55:28.523 CHANGE 21:55:28.522 app.view.browse_mode = 2147418113
+21:55:28.525 CHANGE 21:55:28.524 app.view.browse_mode = 0
+21:55:28.527 CHANGE 21:55:28.526 app.view.focused_document_view = 2147418113
+21:55:28.529 CHANGE 21:55:28.528 app.view.focused_document_view = Session
+21:55:28.530 get_bank_count 4
+21:55:28.532 bank 0: name "Bank A" params [1,12,14,15,16,17,18,19]
+21:55:28.535 bank 1: name "Bank B" params [20,2,3,4,5,6,7,8]
+21:55:28.536 bank 2: name "Bank C" params [9,10,11,13,-1,-1,-1,-1]
+21:55:28.537 bank 3: name "Bank 4" params [-1,-1,-1,-1,-1,-1,-1,-1]
+21:55:28.540 parameters: ["id",549,"id",550,"id",551,"id",552,"id",553,"id",554,"id",555,"id",556,"id",557,"id",558,"id",559,"id",560,"id",561,"id",562,"id",563,"id",564,"id",565,"id",566,"id",567,"id",568,"id",569]
+21:55:28.543 cs pad_layout="note.melodic.64_notes" type_name="Push3" timer_instance=id,0 mxd_midi_scheduler=MessageScheduler(state=idle, owner=None)
+21:55:28.544 survey done: 19 observers armed; page banks on the Push now
+21:55:28.550 deleting a third-party takeover device (id 496) from track 2 index 0
+21:55:28.804 CHANGE 21:55:28.799 this_device.can_compare_ab = 2147418112
+21:55:28.805 CHANGE 21:55:28.804 this_device.can_have_chains = 2147418112
+21:55:28.810 CHANGE 21:55:28.805 this_device.can_have_drum_pads = 2147418112
+21:55:28.821 CHANGE 21:55:28.810 this_device.class_display_name = 2147418112
+21:55:28.823 CHANGE 21:55:28.821 this_device.class_name = 2147418112
+21:55:28.824 CHANGE 21:55:28.823 this_device.is_active = 2147418112
+21:55:28.825 CHANGE 21:55:28.825 this_device.latency_in_ms = 2147418112
+21:55:28.827 CHANGE 21:55:28.826 this_device.latency_in_samples = 2147418112
+21:55:28.827 CHANGE 21:55:28.827 this_device.name = 2147418112
+21:55:28.828 CHANGE 21:55:28.828 this_device.type = 2147418112
+21:55:28.829 CHANGE 21:55:28.829 this_device.view.is_collapsed = 2147418112
+21:55:28.830 CHANGE 21:55:28.830 cs6.control_names = 2147418112
+21:55:28.831 CHANGE 21:55:28.830 cs6.mxd_midi_scheduler = 2147418112
+21:55:28.832 CHANGE 21:55:28.831 cs6.pad_layout = 2147418112
+21:55:28.834 CHANGE 21:55:28.832 cs6.timer_instance = 2147418112
+21:55:28.835 CHANGE 21:55:28.834 cs6.type_name = 2147418112
+21:55:31.603 CHANGE 21:55:31.577 songview.selected_track = 103
+21:55:31.605 CHANGE 21:55:31.604 trackview.selected_device = id 547
+21:55:31.607 CHANGE 21:55:31.606 trackview.selected_device = 500
+21:55:31.608 CHANGE 21:55:31.607 trackview.selected_device = 500
+21:55:31.609 CHANGE 21:55:31.608 app.view.browse_mode = 2147418112
+21:55:31.610 CHANGE 21:55:31.609 app.view.focused_document_view = 2147418112
+21:55:31.613 select_device called
+21:55:31.624 after select: selected_device 547 (THIS), pad_layout "note.melodic.64_notes"
+21:55:31.626 get_bank_count 4
+21:55:31.629 bank 0: name "Bank A" params [1,12,14,15,16,17,18,19]
+21:55:31.630 bank 1: name "Bank B" params [20,2,3,4,5,6,7,8]
+21:55:31.632 bank 2: name "Bank C" params [9,10,11,13,-1,-1,-1,-1]
+21:55:31.633 bank 3: name "Bank 4" params [-1,-1,-1,-1,-1,-1,-1,-1]
+21:55:31.634 parameters: ["id",549,"id",550,"id",551,"id",552,"id",553,"id",554,"id",555,"id",556,"id",557,"id",558,"id",559,"id",560,"id",561,"id",562,"id",563,"id",564,"id",565,"id",566,"id",567,"id",568,"id",569]
+21:55:31.635 CHANGE 21:55:31.634 trackview.selected_device = 500

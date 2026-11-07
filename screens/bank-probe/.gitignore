@@ -1,0 +1,5 @@
+scratch/
+probe-log.txt
+swap/swap-log.txt
+swap/layout-cmd.txt
+swap/map/frames/*.bin

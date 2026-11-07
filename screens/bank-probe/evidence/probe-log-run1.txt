@@ -1,0 +1,38 @@
+21:49:10.121 this_device id 497, name PushBankProbe, class MxDeviceAudioEffect
+21:49:10.124 this_device: id 497 type MaxDevice path live_set tracks 1 devices 1
+21:49:10.125 this_device properties: can_compare_ab(bool), can_have_chains(bool), can_have_drum_pads(bool), class_display_name(str), class_name(str), is_active(bool), latency_in_ms(float), latency_in_samples(int), name(str), type(DeviceType)
+21:49:10.125 this_device children: audio_inputs(DeviceIO), audio_outputs(DeviceIO), midi_inputs(DeviceIO), midi_outputs(DeviceIO), parameters(DeviceParameter), canonical_parent(Track), view(View)
+21:49:10.126 this_device functions: get_bank_count, get_bank_name, get_bank_parameters, save_preset_to_compare_ab_slot, store_chosen_bank
+21:49:10.128 this_device.view: id 498 type View path live_set tracks 1 devices 1 view
+21:49:10.129 this_device.view properties: is_collapsed(bool)
+21:49:10.130 this_device.view children: canonical_parent(MaxDevice)
+21:49:10.130 this_device.view functions: 
+21:49:10.132 control_surfaces: 7 entries, ids 0 0 0 0 0 0 -1
+21:49:10.133 control_surfaces 0: empty slot
+21:49:10.133 control_surfaces 1: empty slot
+21:49:10.134 control_surfaces 2: empty slot
+21:49:10.135 control_surfaces 3: empty slot
+21:49:10.135 control_surfaces 4: empty slot
+21:49:10.136 control_surfaces 5: empty slot
+21:49:10.138 cs6: id -1 type Push3 path control_surfaces 0
+21:49:10.138 cs6 properties: control_names(tuple), mxd_midi_scheduler(MessageScheduler), pad_layout(str), timer_instance(NoneType), type_name(str)
+21:49:10.139 cs6 children: controls(ControlElement)
+21:49:10.140 cs6 functions: disconnect, get_control, get_control_by_name, get_control_names, grab_control, grab_control, grab_midi, has_control, release_control, release_control, release_midi, send_midi, send_receive_sysex
+21:49:10.141 cs6 control names (355): control_names 176 control Jogwheel_Tap control Jogwheel_Press control Jogwheel_Left_nudge control Jogwheel_Right_nudge control Jogwheel control Foot_Pedal control Up_Arrow control Down_Arrow control Left_Arrow control Right_Arrow control Nav_Select_Touch control Nav_Select_Button control Shift_Button control Select_Button control Delete_Button control Duplicate_Button control Quantization_Button control New_Button control Undo_Button ...
+21:49:10.143 cs6.controls: id -13 type list path undefined
+21:49:10.144 cs6.controls properties: 
+21:49:10.144 cs6.controls children: 
+21:49:10.145 cs6.controls functions: 
+21:49:10.146 CHANGE 21:49:10.146 songview.selected_track = id 499
+21:49:10.147 CHANGE 21:49:10.147 trackview.selected_device = id 497
+21:49:10.149 CHANGE 21:49:10.148 trackview.selected_device = id 497
+21:49:10.151 app.view: id 2147418113 type View path live_app view
+21:49:10.151 app.view properties: browse_mode(bool), focused_document_view(str)
+21:49:10.152 app.view children: canonical_parent(Application)
+21:49:10.153 app.view functions: available_main_views, focus_view, hide_view, is_view_visible, scroll_view, show_view, toggle_browse, zoom_view
+21:49:10.153 survey done: 1 observers armed; page banks on the Push now
+21:49:10.155 CHANGE 21:49:10.154 songview.selected_track = 103
+21:49:10.156 CHANGE 21:49:10.155 trackview.selected_device = id 497
+21:49:10.157 CHANGE 21:49:10.157 trackview.selected_device = 500
+21:49:10.158 CHANGE 21:49:10.158 trackview.selected_device = 500
+21:49:10.164 CHANGE 21:49:10.163 trackview.selected_device = 500

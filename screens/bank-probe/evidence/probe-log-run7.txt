@@ -1,0 +1,207 @@
+22:09:29.162 banks: 0 existed, 3 written
+22:09:30.696 deleted older instance id 496 at index 0
+22:09:30.698 this_device id 520, name PushBankProbe, class MxDeviceAudioEffect
+22:09:30.700 this_device: id 520 type MaxDevice path live_set tracks 0 devices 0
+22:09:30.703 this_device properties: can_compare_ab(bool), can_have_chains(bool), can_have_drum_pads(bool), class_display_name(str), class_name(str), is_active(bool), latency_in_ms(float), latency_in_samples(int), name(str), type(DeviceType)
+22:09:30.705 this_device children: audio_inputs(DeviceIO), audio_outputs(DeviceIO), midi_inputs(DeviceIO), midi_outputs(DeviceIO), parameters(DeviceParameter), canonical_parent(Track), view(View)
+22:09:30.706 this_device functions: get_bank_count, get_bank_name, get_bank_parameters, save_preset_to_compare_ab_slot, store_chosen_bank
+22:09:30.708 CHANGE 22:09:30.707 this_device.can_compare_ab = 520
+22:09:30.711 CHANGE 22:09:30.709 this_device.can_have_chains = 520
+22:09:30.713 CHANGE 22:09:30.712 this_device.can_have_drum_pads = 520
+22:09:30.714 CHANGE 22:09:30.713 this_device.class_display_name = 520
+22:09:30.716 CHANGE 22:09:30.715 this_device.class_name = 520
+22:09:30.718 CHANGE 22:09:30.717 this_device.is_active = 520
+22:09:30.719 CHANGE 22:09:30.718 this_device.is_active = 1
+22:09:30.721 CHANGE 22:09:30.720 this_device.latency_in_ms = 520
+22:09:30.722 CHANGE 22:09:30.721 this_device.latency_in_ms = 0
+22:09:30.724 CHANGE 22:09:30.723 this_device.latency_in_samples = 520
+22:09:30.728 CHANGE 22:09:30.724 this_device.latency_in_samples = 0
+22:09:30.730 CHANGE 22:09:30.729 this_device.name = 520
+22:09:30.731 CHANGE 22:09:30.730 this_device.name = PushBankProbe
+22:09:30.733 CHANGE 22:09:30.732 this_device.type = 520
+22:09:30.737 this_device.view: id 521 type View path live_set tracks 0 devices 0 view
+22:09:30.738 this_device.view properties: is_collapsed(bool)
+22:09:30.739 this_device.view children: canonical_parent(MaxDevice)
+22:09:30.740 this_device.view functions: 
+22:09:30.742 CHANGE 22:09:30.740 this_device.view.is_collapsed = 521
+22:09:30.743 CHANGE 22:09:30.742 this_device.view.is_collapsed = 0
+22:09:30.745 control_surfaces: 7 entries, ids 0 0 0 0 0 0 -1
+22:09:30.746 control_surfaces 0: empty slot
+22:09:30.747 control_surfaces 1: empty slot
+22:09:30.748 control_surfaces 2: empty slot
+22:09:30.749 control_surfaces 3: empty slot
+22:09:30.751 control_surfaces 4: empty slot
+22:09:30.752 control_surfaces 5: empty slot
+22:09:30.756 cs6: id -1 type Push3 path control_surfaces 0
+22:09:30.758 cs6 properties: control_names(tuple), mxd_midi_scheduler(MessageScheduler), pad_layout(str), timer_instance(NoneType), type_name(str)
+22:09:30.758 cs6 children: controls(ControlElement)
+22:09:30.760 cs6 functions: disconnect, get_control, get_control_by_name, get_control_names, grab_control, grab_control, grab_midi, has_control, release_control, release_control, release_midi, send_midi, send_receive_sysex
+22:09:30.761 cs6 control names (355): control_names 176 control Jogwheel_Tap control Jogwheel_Press control Jogwheel_Left_nudge control Jogwheel_Right_nudge control Jogwheel control Foot_Pedal control Up_Arrow control Down_Arrow control Left_Arrow control Right_Arrow control Nav_Select_Touch control Nav_Select_Button control Shift_Button control Select_Button control Delete_Button control Duplicate_Button control Quantization_Button control New_Button control Undo_Button ...
+22:09:30.763 CHANGE 22:09:30.762 cs6.control_names = 1
+22:09:30.764 CHANGE 22:09:30.763 cs6.mxd_midi_scheduler = 1
+22:09:30.766 CHANGE 22:09:30.765 cs6.pad_layout = 1
+22:09:30.767 CHANGE 22:09:30.766 cs6.timer_instance = 1
+22:09:30.768 CHANGE 22:09:30.767 cs6.type_name = 1
+22:09:30.770 cs6.controls: id -2 type list path undefined
+22:09:30.771 cs6.controls properties: 
+22:09:30.772 cs6.controls children: 
+22:09:30.773 cs6.controls functions: 
+22:09:30.778 CHANGE 22:09:30.773 songview.selected_track = id 495
+22:09:30.781 selected track 495: name "1-MIDI" path live_set tracks 0
+22:09:30.783 CHANGE 22:09:30.782 trackview.selected_device = id 520
+22:09:30.786 CHANGE 22:09:30.783 trackview.selected_device = id 520
+22:09:30.788 app.view: id 2147418113 type View path live_app view
+22:09:30.789 app.view properties: browse_mode(bool), focused_document_view(str)
+22:09:30.791 app.view children: canonical_parent(Application)
+22:09:30.794 app.view functions: available_main_views, focus_view, hide_view, is_view_visible, scroll_view, show_view, toggle_browse, zoom_view
+22:09:30.795 CHANGE 22:09:30.794 app.view.browse_mode = 2147418113
+22:09:30.797 CHANGE 22:09:30.796 app.view.browse_mode = 0
+22:09:30.798 CHANGE 22:09:30.797 app.view.focused_document_view = 2147418113
+22:09:30.807 CHANGE 22:09:30.799 app.view.focused_document_view = Session
+22:09:30.811 get_bank_count 4
+22:09:30.812 bank 0: name "Bank A" params [1,12,14,15,16,17,18,19]
+22:09:30.813 bank 1: name "Bank B" params [20,2,3,4,5,6,7,8]
+22:09:30.814 bank 2: name "Bank C" params [9,10,11,13,-1,-1,-1,-1]
+22:09:30.815 bank 3: name "Bank 4" params [-1,-1,-1,-1,-1,-1,-1,-1]
+22:09:30.817 parameters: ["id",522,"id",523,"id",524,"id",525,"id",526,"id",527,"id",528,"id",529,"id",530,"id",531,"id",532,"id",533,"id",534,"id",535,"id",536,"id",537,"id",538,"id",539,"id",540,"id",541,"id",542]
+22:09:30.819 cs pad_layout="note.melodic.64_notes" type_name="Push3" timer_instance=id,0 mxd_midi_scheduler=MessageScheduler(state=idle, owner=None)
+22:09:30.829 all control names (177): Jogwheel_Tap Jogwheel_Press Jogwheel_Left_nudge Jogwheel_Right_nudge Jogwheel Foot_Pedal Up_Arrow Down_Arrow Left_Arrow Right_Arrow Nav_Select_Touch Nav_Select_Button Shift_Button Select_Button Delete_Button Duplicate_Button Quantization_Button New_Button Undo_Button Global_Mute_Button Global_Solo_Button Track_Stop_Button Convert Lock_Button Sets_Button Save_Button Capture_Button Page_Left_Button Page_Right_Button Octave_Down_Button Octave_Up_Button Master_Select_Button Scale_Presets_Button Repeat_Button Accent_Button Fixed_Length_Button Setup_Button Device_Mode_Button Clip_Mode_Button Single_Track_Mode_Button Session_Screen_button Note_Mode_Button Session_Mode_Button Layout Play_Button Automation_Button Tap_Tempo_Button Metronome_Button Record_Button Add_Button Swap_Button User_Button Double_Button Track_Select_Button0 Track_Select_Button1 Track_Select_Button2 Track_Select_Button3 Track_Select_Button4 Track_Select_Button5 Track_Select_Button6 Track_Select_Button7 Track_Select_Buttons Track_State_Button0 Track_State_Button1 Track_State_Button2 Track_State_Button3 Track_State_Button4 Track_State_Button5 Track_State_Button6 Track_State_Button7 Track_State_Buttons Scene_Launch_Button7 Scene_Launch_Button6 Scene_Launch_Button5 Scene_Launch_Button4 Scene_Launch_Button3 Scene_Launch_Button2 Scene_Launch_Button1 Scene_Launch_Button0 Scene_Launch_Buttons 0_Clip_0_Button 1_Clip_0_Button 2_Clip_0_Button 3_Clip_0_Button 4_Clip_0_Button 5_Clip_0_Button 6_Clip_0_Button 7_Clip_0_Button 0_Clip_1_Button 1_Clip_1_Button 2_Clip_1_Button 3_Clip_1_Button 4_Clip_1_Button 5_Clip_1_Button 6_Clip_1_Button 7_Clip_1_Button 0_Clip_2_Button 1_Clip_2_Button 2_Clip_2_Button 3_Clip_2_Button 4_Clip_2_Button 5_Clip_2_Button 6_Clip_2_Button 7_Clip_2_Button 0_Clip_3_Button 1_Clip_3_Button 2_Clip_3_Button 3_Clip_3_Button 4_Clip_3_Button 5_Clip_3_Button 6_Clip_3_Button 7_Clip_3_Button 0_Clip_4_Button 1_Clip_4_Button 2_Clip_4_Button 3_Clip_4_Button 4_Clip_4_Button 5_Clip_4_Button 6_Clip_4_Button 7_Clip_4_Button 0_Clip_5_Button 1_Clip_5_Button 2_Clip_5_Button 3_Clip_5_Button 4_Clip_5_Button 5_Clip_5_Button 6_Clip_5_Button 7_Clip_5_Button 0_Clip_6_Button 1_Clip_6_Button 2_Clip_6_Button 3_Clip_6_Button 4_Clip_6_Button 5_Clip_6_Button 6_Clip_6_Button 7_Clip_6_Button 0_Clip_7_Button 1_Clip_7_Button 2_Clip_7_Button 3_Clip_7_Button 4_Clip_7_Button 5_Clip_7_Button 6_Clip_7_Button 7_Clip_7_Button Button_Matrix Double_Press_Matrix Single_Press_Event_Matrix Double_Press_Event_Matrix Learning_Button Tempo_Control_Tap Tempo_Control Tempo_Encoder_Press Master_Volume_Tap Volume_Encoder_Press Master_Volume_Control Track_Control_Touch_0 Track_Control_Touch_1 Track_Control_Touch_2 Track_Control_Touch_3 Track_Control_Touch_4 Track_Control_Touch_5 Track_Control_Touch_6 Track_Control_Touch_7 Track_Control_Touches Track_Control_0 Track_Control_1 Track_Control_2 Track_Control_3 Track_Control_4 Track_Control_5 Track_Control_6 Track_Control_7 Track_Controls Touch_Strip_Tap Touch_Strip_Control Mpe_Pitch_Bend_Elements done
+22:09:30.831 observing 28: Nav_Select_Touch Tap_Tempo_Button Tempo_Control_Tap Tempo_Control Tempo_Encoder_Press Master_Volume_Tap Volume_Encoder_Press Master_Volume_Control Track_Control_Touch_0 Track_Control_Touch_1 Track_Control_Touch_2 Track_Control_Touch_3 Track_Control_Touch_4 Track_Control_Touch_5 Track_Control_Touch_6 Track_Control_Touch_7 Track_Control_Touches Track_Control_0 Track_Control_1 Track_Control_2 Track_Control_3 Track_Control_4 Track_Control_5 Track_Control_6 Track_Control_7 Track_Controls Touch_Strip_Tap Touch_Strip_Control
+22:09:30.833 CHANGE 22:09:30.832 ctl:Nav_Select_Touch.value = -3
+22:09:30.837 CHANGE 22:09:30.833 ctl:Nav_Select_Touch.value = bang
+22:09:30.838 ctl:Nav_Select_Touch: id -3 type ControlProxy path control_surfaces 0 controls 10
+22:09:30.840 ctl:Nav_Select_Touch properties: id(int), name(str)
+22:09:30.841 ctl:Nav_Select_Touch children: canonical_parent(RemoteControlSurfaceWrapper)
+22:09:30.842 ctl:Nav_Select_Touch functions: disconnect, disconnect_disconnectable, find_disconnectable, get_control, get_control_names, grab_control, grab_midi, has_disconnectable, notify_value, receive_value, register_disconnectable, register_disconnectables, register_slot, release_control, release_midi, send_midi, send_receive_sysex, send_value, unregister_disconnectable, value_listener_count
+22:09:30.844 CHANGE 22:09:30.842 ctl:Tap_Tempo_Button.value = -4
+22:09:30.845 CHANGE 22:09:30.844 ctl:Tap_Tempo_Button.value = bang
+22:09:30.847 CHANGE 22:09:30.846 ctl:Tempo_Control_Tap.value = -5
+22:09:30.848 CHANGE 22:09:30.847 ctl:Tempo_Control_Tap.value = bang
+22:09:30.850 CHANGE 22:09:30.849 ctl:Tempo_Control.value = -6
+22:09:30.851 CHANGE 22:09:30.850 ctl:Tempo_Control.value = bang
+22:09:30.853 CHANGE 22:09:30.852 ctl:Tempo_Encoder_Press.value = -7
+22:09:30.855 CHANGE 22:09:30.854 ctl:Tempo_Encoder_Press.value = bang
+22:09:30.868 CHANGE 22:09:30.856 ctl:Master_Volume_Tap.value = -8
+22:09:30.870 CHANGE 22:09:30.869 ctl:Master_Volume_Tap.value = bang
+22:09:30.872 CHANGE 22:09:30.871 ctl:Volume_Encoder_Press.value = -9
+22:09:30.873 CHANGE 22:09:30.872 ctl:Volume_Encoder_Press.value = bang
+22:09:30.875 CHANGE 22:09:30.874 ctl:Master_Volume_Control.value = -10
+22:09:30.897 CHANGE 22:09:30.876 ctl:Master_Volume_Control.value = bang
+22:09:30.900 CHANGE 22:09:30.898 ctl:Track_Control_Touch_0.value = -11
+22:09:30.901 CHANGE 22:09:30.900 ctl:Track_Control_Touch_0.value = bang
+22:09:30.903 CHANGE 22:09:30.902 ctl:Track_Control_Touch_1.value = -12
+22:09:30.904 CHANGE 22:09:30.903 ctl:Track_Control_Touch_1.value = bang
+22:09:30.906 CHANGE 22:09:30.905 ctl:Track_Control_Touch_2.value = -13
+22:09:30.908 CHANGE 22:09:30.906 ctl:Track_Control_Touch_2.value = bang
+22:09:30.910 CHANGE 22:09:30.908 ctl:Track_Control_Touch_3.value = -14
+22:09:30.911 CHANGE 22:09:30.910 ctl:Track_Control_Touch_3.value = bang
+22:09:30.913 CHANGE 22:09:30.912 ctl:Track_Control_Touch_4.value = -15
+22:09:30.914 CHANGE 22:09:30.913 ctl:Track_Control_Touch_4.value = bang
+22:09:30.915 CHANGE 22:09:30.915 ctl:Track_Control_Touch_5.value = -16
+22:09:30.917 CHANGE 22:09:30.916 ctl:Track_Control_Touch_5.value = bang
+22:09:30.919 CHANGE 22:09:30.917 ctl:Track_Control_Touch_6.value = -17
+22:09:30.921 CHANGE 22:09:30.919 ctl:Track_Control_Touch_6.value = bang
+22:09:30.922 CHANGE 22:09:30.921 ctl:Track_Control_Touch_7.value = -18
+22:09:30.924 CHANGE 22:09:30.923 ctl:Track_Control_Touch_7.value = bang
+22:09:30.926 CHANGE 22:09:30.925 ctl:Track_Control_Touches.value = -19
+22:09:30.928 CHANGE 22:09:30.926 ctl:Track_Control_Touches.value = bang
+22:09:30.930 CHANGE 22:09:30.928 ctl:Track_Control_0.value = -20
+22:09:30.931 CHANGE 22:09:30.930 ctl:Track_Control_0.value = bang
+22:09:30.936 CHANGE 22:09:30.932 ctl:Track_Control_1.value = -21
+22:09:30.937 CHANGE 22:09:30.936 ctl:Track_Control_1.value = bang
+22:09:30.951 CHANGE 22:09:30.938 ctl:Track_Control_2.value = -22
+22:09:30.953 CHANGE 22:09:30.952 ctl:Track_Control_2.value = bang
+22:09:30.955 CHANGE 22:09:30.954 ctl:Track_Control_3.value = -23
+22:09:30.957 CHANGE 22:09:30.955 ctl:Track_Control_3.value = bang
+22:09:30.961 CHANGE 22:09:30.958 ctl:Track_Control_4.value = -24
+22:09:30.970 CHANGE 22:09:30.961 ctl:Track_Control_4.value = bang
+22:09:30.972 CHANGE 22:09:30.971 ctl:Track_Control_5.value = -25
+22:09:30.974 CHANGE 22:09:30.972 ctl:Track_Control_5.value = bang
+22:09:30.976 CHANGE 22:09:30.975 ctl:Track_Control_6.value = -26
+22:09:30.977 CHANGE 22:09:30.976 ctl:Track_Control_6.value = bang
+22:09:30.979 CHANGE 22:09:30.978 ctl:Track_Control_7.value = -27
+22:09:30.982 CHANGE 22:09:30.980 ctl:Track_Control_7.value = bang
+22:09:30.984 CHANGE 22:09:30.982 ctl:Track_Controls.value = -28
+22:09:30.986 CHANGE 22:09:30.985 ctl:Track_Controls.value = bang
+22:09:30.988 CHANGE 22:09:30.987 ctl:Touch_Strip_Tap.value = -29
+22:09:30.989 CHANGE 22:09:30.988 ctl:Touch_Strip_Tap.value = bang
+22:09:30.991 CHANGE 22:09:30.990 ctl:Touch_Strip_Control.value = -30
+22:09:30.993 CHANGE 22:09:30.991 ctl:Touch_Strip_Control.value = bang
+22:09:30.994 observers now 47
+22:09:30.996 survey done: 47 observers armed; page banks on the Push now
+22:09:31.004 CHANGE 22:09:31.002 this_device.can_compare_ab = 2147418112
+22:09:31.006 CHANGE 22:09:31.004 this_device.can_have_chains = 2147418112
+22:09:31.008 CHANGE 22:09:31.006 this_device.can_have_drum_pads = 2147418112
+22:09:31.010 CHANGE 22:09:31.008 this_device.class_display_name = 2147418112
+22:09:31.011 CHANGE 22:09:31.010 this_device.class_name = 2147418112
+22:09:31.013 CHANGE 22:09:31.012 this_device.is_active = 2147418112
+22:09:31.014 CHANGE 22:09:31.013 this_device.latency_in_ms = 2147418112
+22:09:31.016 CHANGE 22:09:31.015 this_device.latency_in_samples = 2147418112
+22:09:31.019 CHANGE 22:09:31.016 this_device.name = 2147418112
+22:09:31.021 CHANGE 22:09:31.020 this_device.type = 2147418112
+22:09:31.022 CHANGE 22:09:31.021 this_device.view.is_collapsed = 2147418112
+22:09:31.022 CHANGE 22:09:31.022 cs6.control_names = 2147418112
+22:09:31.023 CHANGE 22:09:31.023 cs6.mxd_midi_scheduler = 2147418112
+22:09:31.024 CHANGE 22:09:31.023 cs6.pad_layout = 2147418112
+22:09:31.025 CHANGE 22:09:31.024 cs6.timer_instance = 2147418112
+22:09:31.026 CHANGE 22:09:31.025 cs6.type_name = 2147418112
+22:09:31.026 CHANGE 22:09:31.026 songview.selected_track = 103
+22:09:31.028 selected track 103: name "1" path live_set view
+22:09:31.029 CHANGE 22:09:31.028 trackview.selected_device = id 520
+22:09:31.030 CHANGE 22:09:31.029 trackview.selected_device = 498
+22:09:31.032 selected device 498: name "1" class 1 path live_set tracks 0 view
+22:09:31.033 CHANGE 22:09:31.032 trackview.selected_device = 498
+22:09:31.035 selected device 498: name "1" class 1 path live_set tracks 0 view
+22:09:31.036 CHANGE 22:09:31.035 app.view.browse_mode = 2147418112
+22:09:31.038 CHANGE 22:09:31.037 app.view.focused_document_view = 2147418112
+22:09:31.038 CHANGE 22:09:31.038 ctl:Nav_Select_Touch.value = 2147418112
+22:09:31.039 CHANGE 22:09:31.039 ctl:Tap_Tempo_Button.value = 2147418112
+22:09:31.041 CHANGE 22:09:31.040 ctl:Tempo_Control_Tap.value = 2147418112
+22:09:31.044 CHANGE 22:09:31.041 ctl:Tempo_Control.value = 2147418112
+22:09:31.045 CHANGE 22:09:31.044 ctl:Tempo_Encoder_Press.value = 2147418112
+22:09:31.046 CHANGE 22:09:31.045 ctl:Master_Volume_Tap.value = 2147418112
+22:09:31.047 CHANGE 22:09:31.046 ctl:Volume_Encoder_Press.value = 2147418112
+22:09:31.048 CHANGE 22:09:31.047 ctl:Master_Volume_Control.value = 2147418112
+22:09:31.048 CHANGE 22:09:31.048 ctl:Track_Control_Touch_0.value = 2147418112
+22:09:31.049 CHANGE 22:09:31.049 ctl:Track_Control_Touch_1.value = 2147418112
+22:09:31.050 CHANGE 22:09:31.049 ctl:Track_Control_Touch_2.value = 2147418112
+22:09:31.050 CHANGE 22:09:31.050 ctl:Track_Control_Touch_3.value = 2147418112
+22:09:31.052 CHANGE 22:09:31.051 ctl:Track_Control_Touch_4.value = 2147418112
+22:09:31.053 CHANGE 22:09:31.052 ctl:Track_Control_Touch_5.value = 2147418112
+22:09:31.054 CHANGE 22:09:31.053 ctl:Track_Control_Touch_6.value = 2147418112
+22:09:31.055 CHANGE 22:09:31.054 ctl:Track_Control_Touch_7.value = 2147418112
+22:09:31.056 CHANGE 22:09:31.055 ctl:Track_Control_Touches.value = 2147418112
+22:09:31.058 CHANGE 22:09:31.057 ctl:Track_Control_0.value = 2147418112
+22:09:31.059 CHANGE 22:09:31.058 ctl:Track_Control_1.value = 2147418112
+22:09:31.060 CHANGE 22:09:31.059 ctl:Track_Control_2.value = 2147418112
+22:09:31.061 CHANGE 22:09:31.060 ctl:Track_Control_3.value = 2147418112
+22:09:31.062 CHANGE 22:09:31.061 ctl:Track_Control_4.value = 2147418112
+22:09:33.654 CHANGE 22:09:33.653 ctl:Track_Control_5.value = 2147418112
+22:09:33.655 CHANGE 22:09:33.654 ctl:Track_Control_6.value = 2147418112
+22:09:33.656 CHANGE 22:09:33.655 ctl:Track_Control_7.value = 2147418112
+22:09:33.657 CHANGE 22:09:33.656 ctl:Track_Controls.value = 2147418112
+22:09:33.658 CHANGE 22:09:33.657 ctl:Touch_Strip_Tap.value = 2147418112
+22:09:33.660 CHANGE 22:09:33.658 ctl:Touch_Strip_Control.value = 2147418112
+22:09:33.661 CHANGE 22:09:33.660 trackview.selected_device = 498
+22:09:33.663 selected device 498: name "1" class 1 path live_set tracks 0 view
+22:09:33.665 select_device called
+22:09:33.670 after select: selected_device 520 (THIS), pad_layout "note.melodic.64_notes"
+22:09:33.671 get_bank_count 4
+22:09:33.672 bank 0: name "Bank A" params [1,12,14,15,16,17,18,19]
+22:09:33.673 bank 1: name "Bank B" params [20,2,3,4,5,6,7,8]
+22:09:33.674 bank 2: name "Bank C" params [9,10,11,13,-1,-1,-1,-1]
+22:09:33.676 bank 3: name "Bank 4" params [-1,-1,-1,-1,-1,-1,-1,-1]
+22:09:33.677 parameters: ["id",522,"id",523,"id",524,"id",525,"id",526,"id",527,"id",528,"id",529,"id",530,"id",531,"id",532,"id",533,"id",534,"id",535,"id",536,"id",537,"id",538,"id",539,"id",540,"id",541,"id",542]
+22:09:51.372 CHANGE 22:09:51.370 ctl:Track_Control_Touches.value = 127 0 0 1
+22:09:51.373 CHANGE 22:09:51.372 ctl:Track_Control_Touch_0.value = 127
+22:09:51.542 CHANGE 22:09:51.516 ctl:Track_Control_Touches.value = 0 0 0 1
+22:09:51.544 CHANGE 22:09:51.543 ctl:Track_Control_Touch_0.value = 0
+22:09:52.909 CHANGE 22:09:52.907 ctl:Track_Control_Touches.value = 127 1 0 1
+22:09:52.910 CHANGE 22:09:52.909 ctl:Track_Control_Touch_1.value = 127
+22:09:53.065 CHANGE 22:09:53.064 ctl:Track_Control_1.value = 1
+22:09:53.220 CHANGE 22:09:53.217 ctl:Track_Control_1.value = 1
+22:09:53.377 CHANGE 22:09:53.374 ctl:Track_Control_1.value = 1
+22:09:56.160 CHANGE 22:09:56.135 ctl:Track_Control_Touches.value = 0 1 0 1
+22:09:56.161 CHANGE 22:09:56.160 ctl:Track_Control_Touch_1.value = 0
+22:09:56.162 CHANGE 22:09:56.161 ctl:Track_Control_7.value = 127
+22:09:56.316 CHANGE 22:09:56.308 ctl:Tempo_Control.value = 1

@@ -1,0 +1,5 @@
+vendor/
+build/
+device/*.mxo
+device/*.mxl_x86_64
+device/*.mxe64

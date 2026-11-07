@@ -1,0 +1,5 @@
+   0.015 sent [USER] 90 24 7F
+   0.037 sent [USER] F0 00 21 1D 01 01 3B 00 2B 00 00 7F 01 00 00 F7
+   0.060 sent [LIVE] F0 00 21 1D 01 01 3B 00 63 7F 01 7F 01 7F 01 F7
+   0.082 sent [LIVE] 90 5C 15
+active sensing: ["user": 5, "live": 5]

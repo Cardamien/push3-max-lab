@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+
+# Build outputs (compiled externals that ship inside a frozen device are committed with the device)
+build/
+.zig-cache/
+zig-out/
+vendor/
+*.o
+*.dylib
+*.mxo/
+*.mxe64
+*.mxl_x86_64
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Never commit Ableton's files: helper copies are built locally from your own Live
+helper-copy/
+helper-fake/
+helper-tap/
+reference/
+
+# Local captures, logs and secrets (pairing tokens, syslogs, recordings of your own unit)
+.secrets/
+scratch/
+*.log
+rec.bin
+frame.bin

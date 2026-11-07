@@ -1,0 +1,2 @@
+claim interface 0: ok
+frames 25 in 5.00 s (5.0 fps), errors 0
