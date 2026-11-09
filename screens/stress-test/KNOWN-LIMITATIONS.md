@@ -1,5 +1,7 @@
 # Known limitations (Push Stress Test 0.1.0)
 
+- **Max version (2026-11-09):** all results were measured on a Push 3 tethered, Live 12.4.15 and Max 9.2 (standalone 9.2.0 chosen in Live's Preferences, Max). Not verified on Live's bundled Max 9.1.5, a standalone Push 3 or other Live versions.
+
 - Run in Live on a tethered Push 3 (2026-10-31, frames read at the helper's USB, not by eye): the Push screen shows at most about 30 new pictures a second at any Rate above 30, so Rate 60 to 120 only measures the device's own clock. Tearing, dial lag and the standalone Push are not checked; the Max table in the README is Max only.
 - Banks cannot be checked in plain Max (needs the parameter hub). Bank 1 "Scene" keeps four empty leading slots as in the demo (worked on hardware there); bank 2 "Run" puts Run, Rate, Scene, Readout in slots 1 to 4. Not tested in Live.
 - Frame timing uses `Date.now()` (1 ms). Single frames are only accurate to 1 ms; averages over many frames are fine. The ms figure includes the copy into the matrix (about 4 ms floor in Max), not the transfer to Push.

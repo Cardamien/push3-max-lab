@@ -1,5 +1,7 @@
 # Compiled Max externals on Push 3 standalone
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 Question: can a third-party compiled Max external (C or C++) run on Push 3 standalone? Yes. Two devices built this way run on Push 3 standalone, in Live on the Mac, and in Max:
 
 - **CornerClip**: a clipper around `cornerclip~`, a C++ external wrapping Airwindows OneCornerClip, with a stock-Ableton-look face (laid out after Live's Tape device) and a display that draws the clipped wave.

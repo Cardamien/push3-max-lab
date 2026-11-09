@@ -1,5 +1,7 @@
 # Push Orbit Demo
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 A Max for Live audio-effect device (audio passes through untouched) that draws an animation of orbiting dots on the left half of the Push 3 screen and puts its four dials on the right half of the Push encoder row. It builds on the PushVizProbe findings (`../README.md`, `../viz-probe/`). It was later run on a tethered Push 3 and on the virtual Push (see `../bank-probe/README.md`); `KNOWN-LIMITATIONS.md` lists what is still open.
 
 Files: `PushOrbitDemo.amxd` (device, 262 x 169), `push-orbit-demo.js` (all the logic, one v8 script), `KNOWN-LIMITATIONS.md`, `CHANGELOG.md`.

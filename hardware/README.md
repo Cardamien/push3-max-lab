@@ -1,5 +1,7 @@
 # Push 3 hardware: battery, LEDs, modes and SysEx
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 How a Push 3 talks over MIDI and USB, measured on one unit (firmware package 1.5.4, Live 12.4.15, macOS) from the outside: nothing installed on the Push, no SSH. The SysEx commands are Ableton's internal ones, not a public interface, so a firmware update can change them. Command names are the ones used in Live's Push script; the behaviour comes from MIDI captures on the hardware.
 
 ## Safety first
