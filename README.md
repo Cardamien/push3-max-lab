@@ -2,15 +2,29 @@
 
 Open-source research and tools for Max for Live on Ableton hardware: a virtual Push 3 in Max, custom Push screens with `live.push`, LEDs and battery, how Live and Push talk to each other, compiled externals on Push 3 standalone, and more. So far, everything here works without SSH and without installing anything on the Push.
 
+Currently it is verified only with a Push 3 tethered, Live 12.4.15 and Max 9.2 (see Compatibility below).
+
 ## What is inside
 
 | Folder | What it is |
 |---|---|
 | `virtual-push/` | A Push 3 emulated inside a Max patch (screen, 64 pads, buttons, encoders, lights) that Live drives like the real one. Start with `virtual-push/README.md`. |
-| `screens/` | Max for Live devices that draw their own graphics on the Push 3 display with `live.push`, tethered and standalone, plus measurements of what fits where and how fast it refreshes. Start with `screens/README.md`. |
+| `screens/` | Max for Live devices that draw their own graphics on the Push 3 display with `live.push`, tethered (standalone is untested), plus measurements of what fits where and how fast it refreshes. Start with `screens/README.md`. |
 | `hardware/` | Reading the battery level, controlling LEDs, User Mode, the Push 3 SysEx commands, and drawing on the screen with Live closed. Start with `hardware/README.md`. |
 | `standalone/` | Compiled Max externals running on Push 3 standalone, planning a device for standalone, and the Push's local web service. Start with `standalone/README.md`. |
 | `docs/` | How Live and Push talk to each other, and notes for the push-hack docs. Start with `docs/README.md`. |
+
+## Compatibility
+
+Everything here was built and measured on this combination, and nothing else is verified:
+
+| Part | Verified | Not verified |
+|---|---|---|
+| Hardware | Push 3 tethered to the Mac | Push 3 standalone |
+| Live | 12.4.15 | other versions |
+| Max | 9.2 (standalone 9.2.0, chosen in Live's Preferences, Max) | the Max 9.1.5 bundled with Live 12.4 |
+
+Screen drawing in particular is not ready for stock Live installs until a run on the bundled Max 9.1.5 passes: clear the custom Max application in Live's Preferences, restart Live, tether the Push 3 and check that the picture, the stop frame and the recolour still work.
 
 ## Important notice
 

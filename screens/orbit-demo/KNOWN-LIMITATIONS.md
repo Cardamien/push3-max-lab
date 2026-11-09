@@ -1,5 +1,7 @@
 # Known limitations (Push Orbit Demo 0.1.0)
 
+- **Max version (2026-11-09):** all results were measured on a Push 3 tethered, Live 12.4.15 and Max 9.2 (standalone 9.2.0 chosen in Live's Preferences, Max). Not verified on Live's bundled Max 9.1.5, a standalone Push 3 or other Live versions.
+
 - Run on a tethered Push 3 (2026-10-29: orbit on the left, four dials on the right, as intended) and on the virtual Push (both banks keep the picture). First built and checked in Max: script loads, frames at the chosen rate, per-frame cost, status post, clear frame, console clean.
 - Banks cannot be checked in plain Max. The bank messages are sent (edit/new for 2 banks, delete extras) but four empty leading slots (`-`) worked on the tethered Push. Fallback if they ever stop working: put the four dials in slots 1 to 4 via `BANKS` in the script.
 - The static `parameterbanks` stored in the device file is an empty bank copied from the blueprint; the real banks are built at load by the script (needs the parameter hub, so only in Live or Push 3 standalone).

@@ -1,5 +1,7 @@
 # Push Viz Probe
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 A Max for Live audio-effect device (audio passes through untouched) that sends test pictures to the device-screen slot of Push 3, through `[live.push]` and its undocumented `jit_matrix <name>` message. Purpose: find out, on real hardware, what Push does with such a picture. Verified on a tethered Push 3 with Live 12.4.15 on 2026-10-29 (see `KNOWN-LIMITATIONS.md` for what is still open, and the guide in `../README.md` for the findings).
 
 Files: `PushVizProbe.amxd` (device), `push-viz-probe.js` (all the logic, one v8 script), `KNOWN-LIMITATIONS.md`, `CHANGELOG.md`.

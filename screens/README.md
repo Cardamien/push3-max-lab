@@ -1,6 +1,8 @@
 # Custom pictures on the Push 3 screen from a Max for Live device
 
-A Max for Live device can draw its own graphics on the Push 3 screen, in full colour, while Live keeps drawing its usual parameter names, values, dials and banks. It works tethered and on Push 3 standalone, inside a normal device: no Push hack, no modified Live files, no firmware change.
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
+A Max for Live device can draw its own graphics on the Push 3 screen, in full colour, while Live keeps drawing its usual parameter names, values, dials and banks. It has been verified only tethered (standalone Push 3 is untested), inside a normal device: no Push hack, no modified Live files, no firmware change.
 
 The route uses the stock `live.push` object with a message that is not in its reference page, so it is undocumented and could change in any Live or Push update. Measurements below were made on a Push 3 tethered to Live 12.4.15 on a Mac (firmware 1.5.4), unless a line says otherwise.
 

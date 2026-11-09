@@ -1,5 +1,7 @@
 # Known limitations
 
+- **Max version (2026-11-09):** all results were measured on a Push 3 tethered, Live 12.4.15 and Max 9.2 (standalone 9.2.0 chosen in Live's Preferences, Max). Not verified on Live's bundled Max 9.1.5, a standalone Push 3 or other Live versions.
+
 - Cannot be verified outside Live with a Push: `live.push` is a silent no-op elsewhere. Verified on a tethered Push 3 (2026-10-29): the picture appears at native size from the top-left of the 960x160 screen, under Live's controls and over its header; 15 and 30 fps run steadily; it survives bank paging, two instances and a Drum Rack pad chain. Not verified: the standalone Push 3 (CPU and frame rate there), navigating to another pad's device.
 - The `jit_matrix <name>` message to `live.push` is undocumented (found by static disassembly, then confirmed on hardware, tethered only). Behaviour may differ between Live/Push versions.
 - Black is invisible (light on black); the picture shows visible banding, probably the display's 16-bit colour (inferred). The last frame stays on screen after sending stops, so the script sends one transparent frame when Send goes off.

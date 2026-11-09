@@ -1,5 +1,7 @@
 # PushIconTest
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 Test copy of `../viz-probe/PushVizProbe.amxd` (unchanged original) to check whether Push shows icons instead of dials for parameters with specific names.
 
 ## What changed (only these two controls)

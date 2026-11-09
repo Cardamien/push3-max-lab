@@ -1,5 +1,7 @@
 # Push Stress Test
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 A Max for Live audio-effect device (audio passes through untouched, 330 x 169) to find out how fast the Push 3 screen can really be fed. It is the Push Orbit Demo (`../orbit-demo/`, proven on a tethered Push 3) with a rate up to 120 fps, five scenes (four of different weight plus a still calibration map), a drop-frame counter and an on-screen readout. Status 0.1.0: measured in Max, then run in Live on a tethered Push 3 (see the frame-rate results below and `KNOWN-LIMITATIONS.md`).
 
 Files: `PushStressTest.amxd`, `push-stress-test.js` (all the logic, one v8 script), `KNOWN-LIMITATIONS.md`, `CHANGELOG.md`.

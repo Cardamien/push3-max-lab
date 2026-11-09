@@ -1,5 +1,7 @@
 # Known limitations
 
+- **Max version (2026-11-09):** all results were measured on a Push 3 tethered, Live 12.4.15 and Max 9.2 (standalone 9.2.0 chosen in Live's Preferences, Max). Not verified on Live's bundled Max 9.1.5, a standalone Push 3 or other Live versions.
+
 - Tested only on the virtual Push (Live 12.4.15's Push 3 script in Live's Mac helper, driven through the virtual-push bridge). The real Push 3, tethered or standalone, is not tested.
 - The bank page is inferred, never read: it is known only after an encoder turn moves one of this device's parameters. A touch alone, a turn on an empty slot, or a turn while another device is shown gives nothing.
 - Pairing relies on the encoder event and the parameter change arriving within 300 ms of each other; on the virtual Push they arrived 4 to 9 ms apart, in either order. Under heavy load Live's observer queue may stretch that.

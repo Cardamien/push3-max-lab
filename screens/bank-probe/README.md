@@ -1,5 +1,7 @@
 # Push bank probe
 
+> **Compatibility (2026-11-09):** this is verified only with a **Push 3 tethered** to the Mac, **Live 12.4.15** and **Max 9.2** (standalone 9.2.0, selected in Live's Preferences, Max). It is **not verified** on the Max 9.1.5 bundled with Live 12.4, on a standalone Push 3, or on other Live versions. See the Compatibility section of the main `README.md`.
+
 Question: can a Max for Live device learn, from inside Live, (a) which bank page the Push 3 currently shows for the selected device, (b) whether its own device is the one shown, (c) anything else about encoder touch or the Push's view? Wanted for an overlay drawn on top of Live's Push frame that paints custom widgets over specific encoder cells, while every parameter stays a normal automatable `live.*` parameter in `live.banks`.
 
 Status: finished on the virtual Push (2026-10-30). One short check on the real Push is still open (see the end). Follow-up (2026-10-31): a device that owns its page instead of reading it, `swap/` (section "One bank, swapped by the device"), paged from its own Push button; screen map of where a device can draw (section "Where a device can draw").

@@ -1,5 +1,7 @@
 # Known limitations
 
+- **Max version (2026-11-09):** all results were measured on a Push 3 tethered, Live 12.4.15 and Max 9.2 (standalone 9.2.0 chosen in Live's Preferences, Max). Not verified on Live's bundled Max 9.1.5, a standalone Push 3 or other Live versions.
+
 Updated 2026-10-30 (evening).
 
 - Hand-tested with the mouse on 2026-10-30 (report `tests/face-hand-test-2026-10-30.md`): every gesture class reaches Live. Buttons that can change the set (Delete, Duplicate, Convert, Double Loop, New, Capture, Record, Quantize, Fixed Length, Automate, Undo, Save, Stop, the eight scene buttons and upper display buttons 1 to 7) were checked by hit test only, not clicked. Gesture limits are listed in `face/README.md`.
